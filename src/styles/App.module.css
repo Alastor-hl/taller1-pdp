@@ -1,0 +1,13 @@
+.general{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.font{
+    font-family: 'Rubik-Regular';
+}
+@font-face {
+    font-family: 'Rubik-Regular';
+    src: url(../../fonts/Rubik-Regular.ttf) format('truetype');
+}

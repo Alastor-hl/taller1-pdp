@@ -1,0 +1,135 @@
+.container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    padding: 10px;
+    margin: 20px;
+    margin-left: 100px;
+    font-family: 'Rubik-Regular';
+}
+
+.list{
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.action{
+    margin-right: 5px;
+}
+
+.typeIn{
+    margin-left: 10px;
+    border-radius: 5px;
+    background-color: #6bf16b73;
+}
+.typeOut{
+    margin-left: 10px;
+    border-radius: 5px;
+    background-color: #f16b6b73;
+}
+.value{
+    margin-left: 10px;
+}
+
+.title{
+    margin-bottom: 10px;
+}
+
+.searchContainer {
+    display: flex;
+    align-items: center;
+}
+
+.separator {
+    width: 100%;
+    height: 1px;
+    background-color: #ccc; 
+    margin: 10px 0; 
+}
+
+.submit{
+    display: flexbox;
+    border-radius: 5px;
+    font-family: 'Rubik-Regular';
+    margin-left: 5px;
+    background-color: black;
+    color: #fff;
+    transition: background-color 0.5s ease, color 0.5s ease; 
+}
+.submit:hover {
+    background-color: #fff;
+    color: black; 
+}
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); 
+    z-index: 999; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.editItemDiv {
+    text-align: center;
+    justify-content: center;
+    background-color: #fff; 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.acceptEdit{
+    display: flexbox;
+    border-radius: 5px;
+    border-color: rgb(79, 175, 116);
+    font-family: 'Rubik-Regular';
+    background-color: rgb(79, 175, 116);
+    color: #fff;
+    transition: background-color 0.5s ease, color 0.5s ease; 
+}
+
+.acceptEdit:hover {
+    background-color: #fff;
+    color: black; 
+}
+
+.cancelEdit{
+    display: flexbox;
+    border-radius: 5px;
+    font-family: 'Rubik-Regular';
+    background-color: black;
+    color: #fff;
+    transition: background-color 0.5s ease, color 0.5s ease; 
+}
+
+.cancelEdit:hover {
+    background-color: #fff;
+    color: black; 
+}
+
+.select{
+    font-family: 'Rubik-Regular';
+    width: 100%;
+    margin-bottom: 15px;
+}
+  
+.input{
+    font-family: 'Rubik-Regular';
+    margin-bottom: 15px;
+}
+
+@font-face {
+    font-family: 'Rubik-Regular';
+    src: url(../../fonts/Rubik-Regular.ttf) format('truetype');
+}
